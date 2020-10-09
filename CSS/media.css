@@ -1,0 +1,335 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 725px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        top: 75px;
+    }
+
+    .top-menu.show {
+        position: fixed;
+        background: #7785ca;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        z-index: 9;
+    }
+
+    .top-menu.show .top-menu-item {
+        margin-top: 10px;
+        padding: 20px;
+        z-index: 9;
+    }
+
+    .top-menu-item:hover:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: white;
+        left: 0;
+        top: 60px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+    .hero-link {
+        font-size: 13px;
+    }
+    .hero-title {
+        font-size: 35px;
+        line-height: 45px;
+        margin: 20px 0 30px;
+    }
+
+    .btn {
+        width: 140px;
+    }
+    .info-company {
+        padding: 50px 0;
+    }
+    .title-company {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .desc-company {
+        font-size: 13px;
+    }
+    .company-content {
+        margin-top: 50px;
+    }
+    .service-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .service-icon:before {
+        width: 90px;
+        height: 90px;
+    }
+    .row {
+        margin: 0 20px;
+    }
+    .info-company .col-4 {
+        width: 33.3333%;
+        padding: 0 20px;
+    }
+    .services-item {
+        margin-left: 80px;
+    }
+    .title-company-content {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 40px;
+    }
+    .desc-company-content {
+        font-size: 12px;
+        line-height: 22px;
+}
+
+    .info-company .btn {
+        margin-top: 35px;
+    }
+    .underline{
+        width: 650px;
+    }
+    .projects {
+        padding: 55px 0 70px;
+    }
+    .projects .row {
+        margin: 0 20px;
+    }
+    .projects .col-6 {
+        padding: 0 10px;
+    }
+    .projects .underline{
+        bottom: 90px;
+    }
+    .content-projects {
+        margin-top: 10px;
+    }
+    .title-projects {
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .desc-projects {
+        font-size: 12px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+    .link-project {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .standard-list {
+        margin-top: 80px;
+    }
+    .standard-icon h4 {
+        padding: 0 5px 5px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .standard-item p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .team-project {
+        padding: 40px 0 80px;
+    }
+    .team-project:before {
+        height: 30%;
+    }
+    .team-project .underline {
+        bottom: 45px;
+    }
+    .title-team-project {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .team-project .row {
+        margin: 0 -7px;
+    }
+
+    .team-project .col-4 {
+        width: 33.3333%;
+        padding: 0 7px;
+    }
+
+    .title-team-content {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .desc-team-content {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .link-team-project {
+        padding-top: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .our-project {
+        padding: 45px 0 60px;
+    }
+    .title-our-project {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .desc-our-project {
+        font-size: 13px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .our-project .row {
+        margin: 0 20px;
+    }
+    .our-project .col-3 {
+        width: 50%;
+        padding: 15px 10px;
+    }
+
+    .our-project .btn {
+        margin-top: 25px;
+    }
+
+
+    .hero-project-video {
+        height: 500px;
+    }
+    .hero-project-video .underline {
+        bottom: -120px;
+    }
+    .title-hero-project-video {
+        font-size: 30px;
+        line-height: 15px;
+        padding-top: 90px;
+    }
+
+    .desc-hero-project-video {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .video-player {
+        bottom: -80px;
+        max-width: 620px;
+        height: 340px;
+    }
+    .player {
+        width: 200px;
+        height: 60px;
+    }
+    .player span {
+        padding-left: 8px;
+    }
+
+    .subscribe {
+        margin-top: 170px;
+    }
+    .title-subscribe {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+
+    .desc-subscribe {
+        font-size: 13px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    .input-registration {
+        padding: 8px 5px 8px 33px;
+        width: 260px;
+    }
+    .btn-registration {
+        padding: 8px 26px 8px 36px;
+        font-size: 13px;
+    }
+    .decs-bottom-subscribe {
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    .info-others {
+        margin-top: 50px;
+        padding: 40px 0 20px;
+    }
+
+    .info-others .underline {
+        bottom: 80px;
+    }
+
+    .footer-content-title {
+        padding-bottom: 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer-list-item li:not(:last-child) {
+        padding-bottom:0;
+    }
+     .info-others .list-item a {
+        padding-left: 5px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .footer-desc-bottom {
+        margin-top: 80px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 440px;
+    }
+
+
+
+}
+
+@media (max-width: 320px) {
+
+    .container{
+        width: 280px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
