@@ -353,25 +353,14 @@
         line-height: 21px;
     }
 
-
-
-
 }
 
+
 @media (max-width: 480px) {
+
     .container {
         width: 440px;
     }
-
-
-}
-
-@media (max-width: 320px) {
-
-    .container {
-        width: 280px;
-    }
-
     .underline {
         width: 260px;
     }
@@ -698,7 +687,335 @@
 }
 
 
+@media (max-width: 320px) {
 
+    .container {
+        width: 280px;
+    }
+    .underline {
+        width: 260px;
+    }
+
+    .logo {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .mobile-menu {
+        top: 50px;
+    }
+
+    .hero-link {
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px 0 20px;
+    }
+
+    .btn {
+        width: 90px;
+        height: 40px;
+        font-size: 11px;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .info-company {
+        padding: 30px 0;
+    }
+
+    .title-company {
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .desc-company {
+        font-size: 11px;
+    }
+
+    .service-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-company .col-4 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .company-content {
+        margin-top: 35px;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-icon:before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .services-item {
+        margin-left: 70px;
+    }
+
+    .title-company-content {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+
+    .desc-company-content {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .info-company .btn {
+        margin-top: 30px;
+    }
+
+    .projects {
+        padding: 0 0 35px;
+    }
+
+    .projects .col-6 {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .title-projects {
+        font-size: 19px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+
+    .desc-projects {
+        font-size: 11px;
+        line-height: 23px;
+        padding-bottom: 0;
+    }
+
+    .link-project {
+        font-size: 12px;
+        line-height: 0;
+    }
+
+    .projects .underline {
+        bottom: 210px;
+    }
+
+    .standard-list {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .standard-icon {
+        display: flex;
+        padding: 15px;
+    }
+
+    .standard-icon {
+        display: flex;
+        padding: 15px 0 0 15px;
+    }
+
+    .standard-icon h4 {
+        padding: 0 5px 0;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .standard-item p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .team-project {
+        padding: 25px 0 45px;
+    }
+
+    .team-project .col-4 {
+        width: 100%;
+    }
+
+    .team-project:before {
+        height: 10%;
+    }
+
+    .team-project .underline {
+        bottom: 25px;
+    }
+
+    .title-team-project {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .team-project-content {
+        padding-top: 30px;
+    }
+
+    .title-team-content {
+        padding: 15px 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .desc-team-content {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+    .link-team-project {
+        padding-top: 10px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .our-project {
+        padding: 30px 0 40px;
+    }
+
+    .title-our-project {
+        font-size: 25px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+
+    .desc-our-project {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    .our-project .col-3 {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .our-project .btn {
+        margin-top: 15px;
+    }
+
+    .hero-project-video {
+        height: 300px;
+    }
+
+    .hero-project-video .underline {
+        bottom: -80px;
+    }
+
+    .title-hero-project-video {
+        font-size: 20px;
+        line-height: 10px;
+        padding-top: 50px;
+    }
+
+    .desc-hero-project-video {
+        font-size: 11px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+
+    .video-player {
+        bottom: -40px;
+        max-width: 250px;
+        height: 200px;
+    }
+
+    .player {
+        width: 150px;
+        height: 50px;
+    }
+
+    .player span {
+        font-size: 14px;
+    }
+
+    .subscribe {
+        margin-top: 120px;
+    }
+
+    .title-subscribe {
+        font-size: 15px;
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+
+    .desc-subscribe {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .input-registration {
+        padding: 5px 5px 5px 20px;
+        width: 155px;
+    }
+
+    .btn-registration {
+        padding: 5px 10px 5px 10px;
+        font-size: 11px;
+    }
+
+    .decs-bottom-subscribe {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+
+    .info-others {
+        margin-top: 30px;
+        padding: 25px 0 20px;
+    }
+
+    .col-3 {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .footer-content-title {
+        padding-bottom: 0;
+        font-size: 13px;
+        line-height: 0;
+    }
+
+    .info-others .list-item a {
+        padding-left: 5px;
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .footer-desc-bottom {
+        margin-top: 50px;
+        font-size: 11px;
+        line-height: 30px;
+    }
+
+    .mobile-menu {
+        width: 40px;
+        height: 35px;
+    }
+
+    .top-menu-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .top-menu.show .top-menu-item {
+        font-size: 12px;
+        margin-top: 45px;
+        padding: 10px;
+        z-index: 9;
+    }
+}
 
 
 
