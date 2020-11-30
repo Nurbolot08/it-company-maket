@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
 .container {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -15,9 +18,9 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 img {
@@ -27,28 +30,28 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -1.5rem;
 }
 
 .col-3 {
     width: 25%;
-    padding: 0 7px;
+    padding: 0 0.7rem;
 }
 
 .col-4 {
     width: 33.3333%;
-    padding: 0 7px;
+    padding: 0 0.7rem;
 }
 
 .col-6 {
     width: 50%;
-    padding: 0 7px;
+    padding: 0 0.7rem;
 }
 
 .underline {
     position: absolute;
     border: 1px solid #E0E0E0;
-    width: 1100px;
+    width: 110rem;
     left: 0;
     right: 0;
     margin: auto;
@@ -59,23 +62,23 @@ body {
 }
 
 .btn {
-    width: 200px;
-    height: 45px;
+    width: 20rem;
+    height: 4.5rem;
     background: #4985FF;
-    border-radius: 30px;
+    border-radius: 3rem;
     color: #ffffff;
     border: none;
     transition: .5s;
 }
 
 .btn:hover {
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+    box-shadow: 0 0 1rem rgb(255, 0, 0);
 }
 
 header {
     position: absolute;
     width: 100%;
-    padding: 30px 0;
+    padding: 3rem 0;
     border-bottom: 1px solid #A1A1A1;
 }
 
@@ -87,8 +90,8 @@ header .container {
 
 .logo {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
     color: #FFFFFF;
 }
 
@@ -102,14 +105,14 @@ header .container {
     content: "";
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 0.2rem;
     background: white;
     left: 0;
-    top: 100px;
+    top: 10rem;
 }
 
 .top-menu-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 
 .hero {
@@ -126,10 +129,10 @@ header .container {
 
 .hero-title {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
     color: #FFFFFF;
-    margin: 20px 0 50px;
+    margin: 2rem 0 5rem;
 }
 
 .hero-link {
@@ -137,54 +140,54 @@ header .container {
 }
 
 .info-company {
-    padding: 100px 0;
+    padding: 10rem 0;
     text-align: center;
 }
 
 .info-company .btn{
-    margin-top: 55px
+    margin-top: 5.5rem
 }
 
 .title-company {
     text-align: center;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
     color: #323232;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 .desc-company {
     text-align: center;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #999999;
 }
 
 .company-content {
-    margin-top: 70px;
+    margin-top: 7rem;
 }
 
 .title-company-content {
     text-align: left;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    padding-top: 40px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding-top: 4rem;
 }
 
 .desc-company-content {
     text-align: left;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
     color: #999999;
 }
 
 
 .service-icon {
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
     border: 1px solid #4985FF;
     display: flex;
@@ -197,25 +200,25 @@ header .container {
 .service-icon:before {
     content: "";
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 11rem;
+    height: 11rem;
     border: 1px solid #E0E0E0;
     border-radius: 50%;
 }
 
 .services-item {
-    margin-left: 117px;
+    margin-left: 11.7rem;
 }
 
 .col-6 {
     width: 50%;
-    padding: 0 60px;
+    padding: 0 6rem;
 }
 
 .projects {
     background: #F6F6F8;
     height: 100%;
-    padding: 100px 0 70px;
+    padding: 10rem 0 7rem;
     position: relative;
 }
 
@@ -225,32 +228,32 @@ header .container {
 
 
 .projects .underline{
-    bottom: 150px;
+    bottom: 15rem;
 }
 .title-projects {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
-    padding-bottom: 40px;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
+    padding-bottom: 4rem;
 }
 
 .desc-projects {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #999999;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .link-project {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     text-decoration-line: underline;
     color: #4985FF
 }
 
 .content-projects {
-    margin-top: 52px;
+    margin-top: 5.2rem;
 }
 
 .standard-icon {
@@ -258,32 +261,32 @@ header .container {
 }
 
 .standard-icon h4 {
-    padding: 0 20px 17px;
+    padding: 0 2rem 1.7rem;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 30px;
+    font-size: 3.6rem;
+    line-height: 3rem;
 }
 
 .standard-item p {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #999999;
 }
 
 .standard-list {
-    margin-top: 160px;
+    margin-top: 16rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .team-project {
-    padding: 100px 0 170px;
+    padding: 10rem 0 17rem;
     position: relative;
 }
 
 .team-project .underline{
-    bottom: 85px;
+    bottom: 8.5rem;
 }
 
 .team-project:before {
@@ -306,20 +309,20 @@ header .container {
 
 .title-team-project {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
     color: #FFFFFF;
 }
 
 .team-project-content {
-    padding-top: 70px;
+    padding-top: 7rem;
 }
 
 .title-team-content {
-    padding: 30px 0;
+    padding: 3rem 0;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
 }
 
 .title-team-content span {
@@ -328,17 +331,17 @@ header .container {
 
 .desc-team-content {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #999999;
 }
 
 .link-team-project {
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 3rem;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     text-decoration-line: underline;
     color: #4985FF;
 }
@@ -347,53 +350,53 @@ header .container {
     text-align: center;
     background: #F6F6F8;
     height: 100%;
-    padding: 100px 0 130px;
+    padding: 10rem 0 13rem;
 }
 
 .our-project .btn{
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .title-our-project {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
-    margin-bottom: 50px;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
+    margin-bottom: 5rem;
 }
 
 .desc-our-project {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     text-align: center;
     color: #999999;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 }
 
 .hero-project-video {
     position: relative;
     text-align: center;
-    height: 570px;
+    height: 57rem;
     background: url("../images/hero-project.png") no-repeat center/cover;
 }
 .hero-project-video .underline{
-    bottom: -150px;
+    bottom: -15rem;
 }
 
 
 .title-hero-project-video {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
     color: #FFFFFF;
-    padding-top: 70px;
+    padding-top: 7rem;
 }
 
 .desc-hero-project-video {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #FFFFFF;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 .video-content {
@@ -405,9 +408,9 @@ header .container {
     left: 0;
     right: 0;
     margin: auto;
-    bottom: -80px;
-    max-width: 970px;
-    height: 430px;
+    bottom: -8rem;
+    max-width: 97rem;
+    height: 43rem;
     background: url("../images/video-img.png") no-repeat center/cover;
     display: flex;
     justify-content: center;
@@ -419,53 +422,53 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 200px;
+    border-radius: 20rem;
     border: 1px solid #FFFFFF;
-    width: 300px;
-    height: 100px;
+    width: 30rem;
+    height: 10rem;
     color: white;
     font-weight: 500;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .player span {
     display: inline-block;
-    padding-left: 21px;
+    padding-left: 2.1rem;
 }
 
 .subscribe {
-    margin-top: 250px;
+    margin-top: 25rem;
     text-align: center;
     position: relative;
 }
 
 .title-subscribe {
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    padding-bottom: 20px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding-bottom: 2rem;
 }
 
 .desc-subscribe {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     color: #999999;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .decs-bottom-subscribe {
-    padding-top: 35px;
+    padding-top: 3.5rem;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
     color: #999999;
 }
 
 .input-registration::placeholder {
     font-weight: normal;
-    font-size: 13px;
-    line-height: 21px;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
     color: #999999;
 }
 
@@ -476,22 +479,22 @@ header .container {
 }
 
 .input-registration {
-    padding: 15px 5px 13px 33px;
-    width: 300px;
-    border-radius: 30px 0 0 30px;
+    padding: 1.5rem 0.5rem 1.3rem 3.3rem;
+    width: 30rem;
+    border-radius: 3rem 0 0 3rem;
     border: 1px solid #F2F2F2;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
 }
 
 .btn-registration {
-    padding: 13px 26px 15px 36px;
+    padding: 1.3rem 2.6rem 1.5rem 3.6rem;
     background: #4985FF;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 3rem 3rem 0;
     border: none;
     color: white;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     transition: .6s;
 }
 
@@ -500,62 +503,62 @@ header .container {
 }
 
 .info-others {
-    margin-top: 85px;
-    padding: 70px 0 30px;
+    margin-top: 8.5rem;
+    padding: 7rem 0 3rem;
     background: #F6F6F8;
     position: relative;
 }
 
 .info-others .underline{
-    bottom: 75px;
+    bottom: 7.5rem;
 }
 
 .footer-desc-bottom {
-    margin-top: 100px;
+    margin-top: 10rem;
     text-align: center;
-    font-size: 13px;
-    line-height: 21px;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
     color: #999999;
 }
 
 .list-item a {
-    padding-left: 12px;
+    padding-left: 1.2rem;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
     color: #999999;
 }
 
 .footer-list-item li:not(:last-child) {
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .footer-content-title {
-    padding-bottom: 35px;
+    padding-bottom: 3.5rem;
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 2.2rem;
 }
 
 .mobile-menu {
     background: #1f1f1f;
-    width: 45px;
-    height: 40px;
-    border-radius: 5px;
+    width: 4.5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
     display: none;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 0.5rem;
     position: fixed;
-    right: 30px;
-    top: 20px;
+    right: 3rem;
+    top: 2rem;
     bottom: 0;
     z-index: 11;
 }
 
 .mobile-menu span {
     display: inline-block;
-    height: 4px;
+    height: 0.4rem;
     width: 100%;
     background: #ffffff;
     position: relative;
@@ -567,7 +570,7 @@ header .container {
     width: 100%;
     height: 100%;
     background: #ffffff;
-    bottom: 10px;
+    bottom: 1rem;
 }
 
 
@@ -577,5 +580,5 @@ header .container {
     width: 100%;
     height: 100%;
     background: #ffffff;
-    top: 10px;
+    top: 1rem;
 }

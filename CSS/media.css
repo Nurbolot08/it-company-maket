@@ -1,12 +1,24 @@
+@media (max-width: 1400px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 8px;
+    }
+}
+
 @media (max-width: 992px) {
-    .container {
-        max-width: 900px;
+    html {
+        font-size: 7px;
     }
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 725px;
+    html {
+        font-size: 6px;
     }
 
     .top-menu {
@@ -15,7 +27,7 @@
 
     .mobile-menu {
         display: flex;
-        top: 75px;
+        top: 7.5rem;
     }
 
     .top-menu.show {
@@ -23,7 +35,7 @@
         background: #7785ca;
         top: 0;
         right: 0;
-        width: 150px;
+        width: 15rem;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -34,10 +46,11 @@
     }
 
     .top-menu.show .top-menu-item {
-        margin-top: 30px;
-        padding: 10px;
+        margin-top: 3rem;
+        padding: 1rem;
         z-index: 9;
     }
+
     .top-menu-item:not(:last-child) {
         margin-right: 0;
     }
@@ -46,145 +59,145 @@
         content: "";
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 0.2rem;
         background: white;
         left: 0;
-        top: 60px;
+        top: 6rem;
     }
 
     .logo {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 
     .hero-link {
-        font-size: 13px;
+        font-size: 1.3rem;
     }
 
     .hero-title {
-        font-size: 35px;
-        line-height: 45px;
-        margin: 20px 0 30px;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        margin: 2rem 0 3rem;
     }
 
     .btn {
-        width: 140px;
+        width: 14rem;
     }
 
     .info-company {
-        padding: 50px 0;
+        padding: 5rem 0;
     }
 
     .title-company {
         font-weight: bold;
-        font-size: 28px;
-        line-height: 40px;
-        margin-bottom: 25px;
+        font-size: 2.8rem;
+        line-height: 4rem;
+        margin-bottom: 2.5rem;
     }
 
     .desc-company {
-        font-size: 13px;
+        font-size: 1.3rem;
     }
 
     .company-content {
-        margin-top: 50px;
+        margin-top: 5rem;
     }
 
     .service-icon {
-        width: 60px;
-        height: 60px;
+        width: 6rem;
+        height: 6rem;
     }
 
     .service-icon:before {
-        width: 90px;
-        height: 90px;
+        width: 9rem;
+        height: 9rem;
     }
 
     .row {
-        margin: 0 20px;
+        margin: 0 2rem;
     }
 
     .info-company .col-4 {
         width: 33.3333%;
-        padding: 0 20px;
+        padding: 0 2rem;
     }
 
     .services-item {
-        margin-left: 80px;
+        margin-left: 8rem;
     }
 
     .title-company-content {
-        font-size: 16px;
-        line-height: 22px;
-        padding-top: 40px;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        padding-top: 4rem;
     }
 
     .desc-company-content {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 
     .info-company .btn {
-        margin-top: 35px;
+        margin-top: 3.5rem;
     }
 
     .underline {
-        width: 650px;
+        width: 65rem;
     }
 
     .projects {
-        padding: 55px 0 70px;
+        padding: 5.5rem 0 7rem;
     }
 
     .projects .row {
-        margin: 0 20px;
+        margin: 0 2rem;
     }
 
     .projects .col-6 {
-        padding: 0 10px;
+        padding: 0 1rem;
     }
 
     .projects .underline {
-        bottom: 90px;
+        bottom: 9rem;
     }
 
     .content-projects {
-        margin-top: 10px;
+        margin-top: 1rem;
     }
 
     .title-projects {
-        font-size: 26px;
-        line-height: 30px;
-        padding-bottom: 20px;
+        font-size: 2.6rem;
+        line-height: 3rem;
+        padding-bottom: 2rem;
     }
 
     .desc-projects {
-        font-size: 12px;
-        line-height: 25px;
-        padding-bottom: 15px;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        padding-bottom: 1.5rem;
     }
 
     .link-project {
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 0;
     }
 
     .standard-list {
-        margin-top: 80px;
+        margin-top: 8rem;
     }
 
     .standard-icon h4 {
-        padding: 0 5px 5px;
-        font-size: 30px;
-        line-height: 30px;
+        padding: 0 0.5rem 0.5rem;
+        font-size: 3rem;
+        line-height: 3rem;
     }
 
     .standard-item p {
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 
     .team-project {
-        padding: 40px 0 80px;
+        padding: 4rem 0 8rem;
     }
 
     .team-project:before {
@@ -192,149 +205,149 @@
     }
 
     .team-project .underline {
-        bottom: 45px;
+        bottom: 4.5rem;
     }
 
     .title-team-project {
-        font-size: 28px;
-        line-height: 45px;
+        font-size: 2.8rem;
+        line-height: 4.5rem;
     }
 
     .team-project .row {
-        margin: 0 -7px;
+        margin: 0 -0.7rem;
     }
 
     .team-project .col-4 {
         width: 33.3333%;
-        padding: 0 7px;
+        padding: 0 0.7rem;
     }
 
     .title-team-content {
-        padding: 15px 0;
-        font-size: 16px;
-        line-height: 20px;
+        padding: 1.5rem 0;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
 
     .desc-team-content {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 
     .link-team-project {
-        padding-top: 20px;
-        font-size: 12px;
-        line-height: 20px;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
     }
 
     .our-project {
-        padding: 45px 0 60px;
+        padding: 4.5rem 0 6rem;
     }
 
     .title-our-project {
-        font-size: 30px;
-        line-height: 30px;
-        margin-bottom: 30px;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 3rem;
     }
 
     .desc-our-project {
-        font-size: 13px;
-        line-height: 25px;
-        margin-bottom: 40px;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+        margin-bottom: 4rem;
     }
 
     .our-project .row {
-        margin: 0 20px;
+        margin: 0 2rem;
     }
 
     .our-project .col-3 {
         width: 50%;
-        padding: 15px 10px;
+        padding: 1.5rem 1rem;
     }
 
     .our-project .btn {
-        margin-top: 25px;
+        margin-top: 2.5rem;
     }
 
 
     .hero-project-video {
-        height: 500px;
+        height: 50rem;
     }
 
     .hero-project-video .underline {
-        bottom: -120px;
+        bottom: -12rem;
     }
 
     .title-hero-project-video {
-        font-size: 30px;
-        line-height: 15px;
-        padding-top: 90px;
+        font-size: 3rem;
+        line-height: 1.5rem;
+        padding-top: 9rem;
     }
 
     .desc-hero-project-video {
-        font-size: 14px;
-        line-height: 20px;
-        padding-top: 20px;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding-top: 2rem;
     }
 
     .video-player {
-        bottom: -80px;
-        max-width: 620px;
-        height: 340px;
+        bottom: -8rem;
+        max-width: 62rem;
+        height: 34rem;
     }
 
     .player {
-        width: 200px;
-        height: 60px;
+        width: 20rem;
+        height: 6rem;
     }
 
     .player span {
-        padding-left: 8px;
+        padding-left: 0.8rem;
     }
 
     .subscribe {
-        margin-top: 170px;
+        margin-top: 17rem;
     }
 
     .title-subscribe {
-        font-size: 16px;
-        line-height: 22px;
-        padding-bottom: 10px;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        padding-bottom: 1rem;
     }
 
     .desc-subscribe {
-        font-size: 13px;
-        line-height: 25px;
-        padding-bottom: 30px;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+        padding-bottom: 3rem;
     }
 
     .input-registration {
-        padding: 8px 5px 8px 33px;
-        width: 260px;
+        padding: 0.8rem 0.5rem 0.8rem 3.3rem;
+        width: 26rem;
     }
 
     .btn-registration {
-        padding: 8px 26px 8px 36px;
-        font-size: 13px;
+        padding: 0.8rem 2.6rem 0.8rem 3.6rem;
+        font-size: 1.3rem;
     }
 
     .decs-bottom-subscribe {
-        padding-top: 20px;
-        font-size: 13px;
+        padding-top: 2rem;
+        font-size: 1.3rem;
     }
 
     .info-others {
-        margin-top: 50px;
-        padding: 40px 0 20px;
+        margin-top: 5rem;
+        padding: 4rem 0 2rem;
     }
 
     .info-others .underline {
-        bottom: 80px;
+        bottom: 8rem;
     }
 
     .footer-content-title {
-        padding-bottom: 5px;
-        font-size: 14px;
-        line-height: 20px;
+        padding-bottom: 0.5rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
     }
 
     .footer-list-item li:not(:last-child) {
@@ -342,15 +355,22 @@
     }
 
     .info-others .list-item a {
-        padding-left: 5px;
-        font-size: 11px;
-        line-height: 20px;
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
     }
 
     .footer-desc-bottom {
-        margin-top: 80px;
-        font-size: 13px;
-        line-height: 21px;
+        margin-top: 8rem;
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+    }
+
+}
+
+@media (max-width: 560px) {
+    html {
+        font-size: 6px;
     }
 
 }
@@ -358,36 +378,37 @@
 
 @media (max-width: 480px) {
 
-    .container {
-        width: 440px;
+    html {
+        font-size: 5px;
     }
+
     .underline {
-        width: 260px;
+        width: 26rem;
     }
 
     .logo {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 2rem;
+        line-height: 2rem;
     }
 
     .mobile-menu {
-        top: 50px;
+        top: 5rem;
     }
 
     .hero-link {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
     .hero-title {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 5px 0 20px;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0.5rem 0 2rem;
     }
 
     .btn {
-        width: 90px;
-        height: 40px;
-        font-size: 11px;
+        width: 9rem;
+        height: 4rem;
+        font-size: 1.1rem;
     }
 
     .hero {
@@ -395,22 +416,22 @@
     }
 
     .info-company {
-        padding: 30px 0;
+        padding: 3rem 0;
     }
 
     .title-company {
-        font-size: 17px;
-        line-height: 30px;
-        margin-bottom: 15px;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .desc-company {
-        font-size: 11px;
+        font-size: 1.1rem;
     }
 
     .service-icon svg {
-        width: 30px;
-        height: 30px;
+        width: 3rem;
+        height: 3rem;
     }
 
     .info-company .col-4 {
@@ -419,97 +440,97 @@
     }
 
     .company-content {
-        margin-top: 35px;
+        margin-top: 3.5rem;
     }
 
     .service-icon {
-        width: 50px;
-        height: 50px;
+        width: 5rem;
+        height: 5rem;
     }
 
     .service-icon:before {
-        width: 70px;
-        height: 70px;
+        width: 7rem;
+        height: 7rem;
     }
 
     .services-item {
-        margin-left: 70px;
+        margin-left: 7rem;
     }
 
     .title-company-content {
-        font-size: 15px;
-        line-height: 22px;
-        padding-top: 10px;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-top: 10rem;
     }
 
     .desc-company-content {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 
     .info-company .btn {
-        margin-top: 30px;
+        margin-top: 3rem;
     }
 
     .projects {
-        padding: 0 0 35px;
+        padding: 0 0 3.5rem;
     }
 
     .projects .col-6 {
         width: 100%;
-        padding: 15px 10px;
+        padding: 1.5rem 1rem;
     }
 
     .title-projects {
-        font-size: 19px;
-        line-height: 25px;
-        padding-bottom: 10px;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        padding-bottom: 1rem;
     }
 
     .desc-projects {
-        font-size: 11px;
-        line-height: 23px;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
         padding-bottom: 0;
     }
 
     .link-project {
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 0;
     }
 
     .projects .underline {
-        bottom: 210px;
+        bottom: 21rem;
     }
 
     .standard-list {
-        margin-top: 50px;
+        margin-top: 5rem;
         display: flex;
         flex-flow: wrap;
     }
 
     .standard-icon {
         display: flex;
-        padding: 15px;
+        padding: 1.5rem;
     }
 
     .standard-icon {
         display: flex;
-        padding: 15px 0 0 15px;
+        padding: 1.5rem 0 0 1.5rem;
     }
 
     .standard-icon h4 {
-        padding: 0 5px 0;
-        font-size: 30px;
-        line-height: 30px;
+        padding: 0 0.5rem 0;
+        font-size: 3rem;
+        line-height: 3rem;
     }
 
     .standard-item p {
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 
     .team-project {
-        padding: 25px 0 45px;
+        padding: 2.5rem 0 4.5rem;
     }
 
     .team-project .col-4 {
@@ -521,157 +542,157 @@
     }
 
     .team-project .underline {
-        bottom: 25px;
+        bottom: 2.5rem;
     }
 
     .title-team-project {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 2rem;
+        line-height: 3rem;
     }
 
     .team-project-content {
-        padding-top: 30px;
+        padding-top: 3rem;
     }
 
     .title-team-content {
-        padding: 15px 0;
-        font-size: 15px;
-        line-height: 20px;
+        padding: 1.5rem 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .desc-team-content {
-        font-size: 10px;
-        line-height: 22px;
+        font-size: 1rem;
+        line-height: 2.2rem;
     }
 
     .link-team-project {
-        padding-top: 10px;
-        font-size: 11px;
-        line-height: 20px;
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
     }
 
     .our-project {
-        padding: 30px 0 40px;
+        padding: 3rem 0 4rem;
     }
 
     .title-our-project {
-        font-size: 25px;
-        line-height: 15px;
-        margin-bottom: 20px;
+        font-size: 2.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .desc-our-project {
-        font-size: 12px;
-        line-height: 25px;
-        margin-bottom: 25px;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .our-project .col-3 {
         width: 100%;
-        padding: 10px 10px;
+        padding: 1rem 1rem;
     }
 
     .our-project .btn {
-        margin-top: 15px;
+        margin-top: 1.5rem;
     }
 
     .hero-project-video {
-        height: 300px;
+        height: 30rem;
     }
 
     .hero-project-video .underline {
-        bottom: -80px;
+        bottom: -8rem;
     }
 
     .title-hero-project-video {
-        font-size: 20px;
-        line-height: 10px;
-        padding-top: 50px;
+        font-size: 2rem;
+        line-height: 1rem;
+        padding-top: 5rem;
     }
 
     .desc-hero-project-video {
-        font-size: 11px;
-        line-height: 25px;
-        padding-top: 10px;
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        padding-top: 1rem;
     }
 
     .video-player {
-        bottom: -40px;
-        max-width: 250px;
-        height: 200px;
+        bottom: -4rem;
+        max-width: 25rem;
+        height: 20rem;
     }
 
     .player {
-        width: 150px;
-        height: 50px;
+        width: 15rem;
+        height: 5rem;
     }
 
     .player span {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     .subscribe {
-        margin-top: 120px;
+        margin-top: 12rem;
     }
 
     .title-subscribe {
-        font-size: 15px;
-        line-height: 22px;
-        padding-bottom: 5px;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-bottom: 0.5rem;
     }
 
     .desc-subscribe {
-        font-size: 12px;
-        line-height: 20px;
-        padding-bottom: 15px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-bottom: 1.5rem;
     }
 
     .input-registration {
-        padding: 5px 5px 5px 20px;
-        width: 155px;
+        padding: 0.5rem 0.5rem 0.5rem 2rem;
+        width: 15.5rem;
     }
 
     .btn-registration {
-        padding: 5px 10px 5px 10px;
-        font-size: 11px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 1.1rem;
     }
 
     .decs-bottom-subscribe {
-        padding-top: 15px;
-        font-size: 12px;
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .info-others {
-        margin-top: 30px;
-        padding: 25px 0 20px;
+        margin-top: 3rem;
+        padding: 2.5rem 0 2rem;
     }
 
     .col-3 {
         width: 100%;
-        padding: 10px 10px;
+        padding: 1rem 1rem;
     }
 
     .footer-content-title {
         padding-bottom: 0;
-        font-size: 13px;
+        font-size: 1.3rem;
         line-height: 0;
     }
 
     .info-others .list-item a {
-        padding-left: 5px;
-        font-size: 11px;
-        line-height: 10px;
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+        line-height: 1rem;
     }
 
     .footer-desc-bottom {
-        margin-top: 50px;
-        font-size: 11px;
-        line-height: 30px;
+        margin-top: 5rem;
+        font-size: 1.1rem;
+        line-height: 3rem;
     }
 
     .mobile-menu {
-        width: 40px;
-        height: 35px;
+        width: 4rem;
+        height: 3.5rem;
     }
 
     .top-menu-item:not(:last-child) {
@@ -679,46 +700,46 @@
     }
 
     .top-menu.show .top-menu-item {
-        font-size: 12px;
-        margin-top: 45px;
-        padding: 10px;
+        font-size: 1.2rem;
+        margin-top: 4.5rem;
+        padding: 1rem;
         z-index: 9;
     }
 }
 
 
 @media (max-width: 320px) {
-
-    .container {
-        width: 280px;
+    html {
+        font-size: 4px;
     }
+
     .underline {
-        width: 260px;
+        width: 26rem;
     }
 
     .logo {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 2rem;
+        line-height: 2rem;
     }
 
     .mobile-menu {
-        top: 50px;
+        top: 5rem;
     }
 
     .hero-link {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
     .hero-title {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 5px 0 20px;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0.5rem 0 2rem;
     }
 
     .btn {
-        width: 90px;
-        height: 40px;
-        font-size: 11px;
+        width: 9rem;
+        height: 4rem;
+        font-size: 1.1rem;
     }
 
     .hero {
@@ -726,22 +747,22 @@
     }
 
     .info-company {
-        padding: 30px 0;
+        padding: 3rem 0;
     }
 
     .title-company {
-        font-size: 17px;
-        line-height: 30px;
-        margin-bottom: 15px;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .desc-company {
-        font-size: 11px;
+        font-size: 1.1rem;
     }
 
     .service-icon svg {
-        width: 30px;
-        height: 30px;
+        width: 3rem;
+        height: 3rem;
     }
 
     .info-company .col-4 {
@@ -750,97 +771,97 @@
     }
 
     .company-content {
-        margin-top: 35px;
+        margin-top: 3.5rem;
     }
 
     .service-icon {
-        width: 50px;
-        height: 50px;
+        width: 5rem;
+        height: 5rem;
     }
 
     .service-icon:before {
-        width: 70px;
-        height: 70px;
+        width: 7rem;
+        height: 7rem;
     }
 
     .services-item {
-        margin-left: 70px;
+        margin-left: 7rem;
     }
 
     .title-company-content {
-        font-size: 15px;
-        line-height: 22px;
-        padding-top: 10px;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-top: 1rem;
     }
 
     .desc-company-content {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 
     .info-company .btn {
-        margin-top: 30px;
+        margin-top: 3rem;
     }
 
     .projects {
-        padding: 0 0 35px;
+        padding: 0 0 3.5rem;
     }
 
     .projects .col-6 {
         width: 100%;
-        padding: 15px 10px;
+        padding: 1.5rem 1rem;
     }
 
     .title-projects {
-        font-size: 19px;
-        line-height: 25px;
-        padding-bottom: 10px;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        padding-bottom: 1rem;
     }
 
     .desc-projects {
-        font-size: 11px;
-        line-height: 23px;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
         padding-bottom: 0;
     }
 
     .link-project {
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 0;
     }
 
     .projects .underline {
-        bottom: 210px;
+        bottom: 21rem;
     }
 
     .standard-list {
-        margin-top: 50px;
+        margin-top: 5rem;
         display: flex;
         flex-flow: wrap;
     }
 
     .standard-icon {
         display: flex;
-        padding: 15px;
+        padding: 1.5rem;
     }
 
     .standard-icon {
         display: flex;
-        padding: 15px 0 0 15px;
+        padding: 1.5rem 0 0 1.5rem;
     }
 
     .standard-icon h4 {
-        padding: 0 5px 0;
-        font-size: 30px;
-        line-height: 30px;
+        padding: 0 0.5rem 0;
+        font-size: 3rem;
+        line-height: 3rem;
     }
 
     .standard-item p {
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 
     .team-project {
-        padding: 25px 0 45px;
+        padding: 2.5rem 0 4.5rem;
     }
 
     .team-project .col-4 {
@@ -852,157 +873,157 @@
     }
 
     .team-project .underline {
-        bottom: 25px;
+        bottom: 2.5rem;
     }
 
     .title-team-project {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 2rem;
+        line-height: 3rem;
     }
 
     .team-project-content {
-        padding-top: 30px;
+        padding-top: 3rem;
     }
 
     .title-team-content {
-        padding: 15px 0;
-        font-size: 15px;
-        line-height: 20px;
+        padding: 1.5rem 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .desc-team-content {
-        font-size: 10px;
-        line-height: 22px;
+        font-size: 1rem;
+        line-height: 2.2rem;
     }
 
     .link-team-project {
-        padding-top: 10px;
-        font-size: 11px;
-        line-height: 20px;
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
     }
 
     .our-project {
-        padding: 30px 0 40px;
+        padding: 3rem 0 4rem;
     }
 
     .title-our-project {
-        font-size: 25px;
-        line-height: 15px;
-        margin-bottom: 20px;
+        font-size: 2.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .desc-our-project {
-        font-size: 12px;
-        line-height: 25px;
-        margin-bottom: 25px;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .our-project .col-3 {
         width: 100%;
-        padding: 10px 10px;
+        padding: 1rem 1rem;
     }
 
     .our-project .btn {
-        margin-top: 15px;
+        margin-top: 1.5rem;
     }
 
     .hero-project-video {
-        height: 300px;
+        height: 30rem;
     }
 
     .hero-project-video .underline {
-        bottom: -80px;
+        bottom: -8rem;
     }
 
     .title-hero-project-video {
-        font-size: 20px;
-        line-height: 10px;
-        padding-top: 50px;
+        font-size: 2rem;
+        line-height: 1rem;
+        padding-top: 5rem;
     }
 
     .desc-hero-project-video {
-        font-size: 11px;
-        line-height: 25px;
-        padding-top: 10px;
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        padding-top: 1rem;
     }
 
     .video-player {
-        bottom: -40px;
-        max-width: 250px;
-        height: 200px;
+        bottom: -4rem;
+        max-width: 25rem;
+        height: 20rem;
     }
 
     .player {
-        width: 150px;
-        height: 50px;
+        width: 15rem;
+        height: 5rem;
     }
 
     .player span {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     .subscribe {
-        margin-top: 120px;
+        margin-top: 12rem;
     }
 
     .title-subscribe {
-        font-size: 15px;
-        line-height: 22px;
-        padding-bottom: 5px;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding-bottom: 0.5rem;
     }
 
     .desc-subscribe {
-        font-size: 12px;
-        line-height: 20px;
-        padding-bottom: 15px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-bottom: 1.5rem;
     }
 
     .input-registration {
-        padding: 5px 5px 5px 20px;
-        width: 155px;
+        padding: 0.5rem 0.5rem 0.5rem 2rem;
+        width: 15.5rem;
     }
 
     .btn-registration {
-        padding: 5px 10px 5px 10px;
-        font-size: 11px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 1.1rem;
     }
 
     .decs-bottom-subscribe {
-        padding-top: 15px;
-        font-size: 12px;
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .info-others {
-        margin-top: 30px;
-        padding: 25px 0 20px;
+        margin-top: 3rem;
+        padding: 2.5rem 0 2rem;
     }
 
     .col-3 {
         width: 100%;
-        padding: 10px 10px;
+        padding: 1rem 1rem;
     }
 
     .footer-content-title {
         padding-bottom: 0;
-        font-size: 13px;
+        font-size: 1.3rem;
         line-height: 0;
     }
 
     .info-others .list-item a {
-        padding-left: 5px;
-        font-size: 11px;
-        line-height: 10px;
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+        line-height: 1rem;
     }
 
     .footer-desc-bottom {
-        margin-top: 50px;
-        font-size: 11px;
-        line-height: 30px;
+        margin-top: 5rem;
+        font-size: 1.1rem;
+        line-height: 3rem;
     }
 
     .mobile-menu {
-        width: 40px;
-        height: 35px;
+        width: 4rem;
+        height: 3.5rem;
     }
 
     .top-menu-item:not(:last-child) {
@@ -1010,9 +1031,9 @@
     }
 
     .top-menu.show .top-menu-item {
-        font-size: 12px;
-        margin-top: 45px;
-        padding: 10px;
+        font-size: 1.2rem;
+        margin-top: 4.5rem;
+        padding: 1rem;
         z-index: 9;
     }
 }
